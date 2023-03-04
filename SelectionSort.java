@@ -13,6 +13,7 @@ class SelectionSort{
                     a[i]=a[min];
                     a[min]=temp;
         }
+        System.out.println("Sorted Array is :");
         for(int i=0;i<a.length;i++){
                 System.out.print(" "+a[i]);
         }
