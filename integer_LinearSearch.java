@@ -1,4 +1,4 @@
-public class Interger_LinearSearch {
+public class integer_LinearSearch {
     public static void main(String[] args) {
         int[] arr = {2, 1, 34, 56, 5, 3};
         int temp = 0;
