@@ -1,5 +1,3 @@
-package All_practice_problem;
-
 public class QuickSort {
     public static void main(String [] args){
         int a[]={2,4,1,8,5,3,9,6};

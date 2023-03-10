@@ -1,6 +1,3 @@
-package Core_java_problem;
-import java.util.*;
-
 public class mergesort {
     int []array;
     int []tempMergeArr;

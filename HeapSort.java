@@ -1,9 +1,7 @@
-package sorting;
-
-public class HeapSort {
+public class Heapsort {
     public static void main(String [] args){
         int []arr={22,13,17,11,10,14,12};
-        HeapSort ob=new HeapSort();
+        Heapsort ob=new Heapsort();
         ob.sort(arr);
         ob.PrintArray(arr);
     }
@@ -41,6 +39,7 @@ public class HeapSort {
         }
     }
     void PrintArray(int []arr){
+        System.out.println("Using Heapipy Method");
         for(int i=0;i<arr.length;i++){
             System.out.print(arr[i]+ " ");
         }
